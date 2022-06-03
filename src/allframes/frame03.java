@@ -76,7 +76,7 @@ public class frame03 extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Username:");
+        jLabel4.setText("Username:");//@author Sobhani Family
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,7 +116,7 @@ public class frame03 extends javax.swing.JFrame {
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel5)
                             .addComponent(jLabel4)
-                            .addComponent(jLabel2)
+                            .addComponent(jLabel2)//@author Sobhani Family
                             .addComponent(jLabel8)
                             .addComponent(jLabel9))
                         .addGap(18, 18, 18)
@@ -136,7 +136,7 @@ public class frame03 extends javax.swing.JFrame {
                             .addComponent(usernameField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(passField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel7)
+                                .addComponent(jLabel7)//@author Sobhani Family
                                 .addGap(18, 18, 18)
                                 .addComponent(pnumberField, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(27, 27, 27))
@@ -194,7 +194,7 @@ public class frame03 extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
+        jPanel1Layout.setVerticalGroup(//@author Sobhani Family
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(33, 33, 33)
@@ -259,7 +259,7 @@ public class frame03 extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(frame03.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(frame03.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } catch (IllegalAccessException ex) {//@author Sobhani Family
             java.util.logging.Logger.getLogger(frame03.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(frame03.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
@@ -293,5 +293,6 @@ public class frame03 extends javax.swing.JFrame {
     private javax.swing.JTextField passField;
     private javax.swing.JTextField pnumberField;
     private javax.swing.JTextField usernameField;
+    //@author Sobhani Family
     // End of variables declaration//GEN-END:variables
 }
