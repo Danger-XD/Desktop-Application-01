@@ -253,12 +253,12 @@ public class frame01 extends javax.swing.JFrame {
         // TODO add your handling code here:
         String username = usernameField.getText();
         String password = String.valueOf( passwordField.getPassword());
-        String query = "select *from login where username ='"+ username +"'";
+        String query = "select *from login where username ='"+ name +"'";
         String passwordInDb = "";
         try{
             ResultSet rs = FrameCodes.queryExecute(query);
             if(rs.next()){
-                passwordInDb = rs.getString("password");
+                //passwordInDb = rs.getString("password");
             }
         }catch(Exception e){
             //e.printStackTrace();
@@ -268,7 +268,7 @@ public class frame01 extends javax.swing.JFrame {
             new frame02().setVisible(true);
         }
         else{
-            JOptionPane.showMessageDialog(null,"Password is Incorrect");
+            
         }
         
     }//GEN-LAST:event_loginButtonActionPerformed
@@ -297,7 +297,7 @@ public class frame01 extends javax.swing.JFrame {
             new frame02().setVisible(true);
         }
         else{
-                        JOptionPane.showMessageDialog(null,"Password is Incorrect");
+                       
         }
         }
     }//GEN-LAST:event_passwordFieldKeyPressed
